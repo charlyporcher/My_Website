@@ -19,6 +19,6 @@ url_slides = ""
 url_video = ""
 
 [[url_custom]]
-name = "fmp"
+name = "monopsony"
 url = ""
 +++
