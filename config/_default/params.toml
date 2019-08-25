@@ -4,6 +4,7 @@
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `rose`, `strawberry`, `mr_robot`.
 color_theme = "default"
+# color_theme = "rgb(42,85,76)"
 # Enable users to switch between day and night mode?
 day_night = true
 
