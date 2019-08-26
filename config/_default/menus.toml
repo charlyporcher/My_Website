@@ -14,7 +14,7 @@
   name = "CV"
   url = "files/cv.pdf"
   weight = 15
-
+  
 [[main]]
   name = "Research"
   url = "#publications"

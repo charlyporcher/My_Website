@@ -75,3 +75,4 @@ I am a Ph.D. candidate in Economics at Princeton University.
 
 My research interests include economic geography, migration economics and industrial organization.
 
+{{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
