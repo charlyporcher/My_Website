@@ -17,11 +17,11 @@ weight = 22
 
 ## Princeton University - Teaching Assistant
 
-- {{% staticref "files/WWS301_ECO352_Spring_2019_RL.pdf" %}}International Trade{{% /staticref %}}, Prof. Gene M. Grossman, Spring 2018, 2019
+- [International Trade](https://registrar.princeton.edu/course-offerings/course-details?term=1194&courseid=001408), Prof. Gene M. Grossman, Spring 2018, 2019
+
+- [Quantitative Analysis](https://registrar.princeton.edu/course-offerings/course-details?term=1192&courseid=006818), Master in Public Affairs, Prof. Eduardo Morales, Fall 2018
+
+- [Urban Economics](https://registrar.princeton.edu/course-offerings/course-details?term=1174&courseid=013999), Prof. Walker Hanlon, Spring 2017 
 
 
-- {{% staticref "files/WWS507C_Syllabus.pdf" %}}Quantitative Analysis{{% /staticref %}}, Master in Public Affairs, Prof. Eduardo Morales, Fall 2018
-
-- {{% staticref "files/urban_2017_syllabus.pdf" %}}Urban Economics{{% /staticref %}}, Prof. Walker Hanlon, Spring 2017 
-
-- {{% staticref "files/16FallWWS307syllabus.pdf" %}}Public Economics{{% /staticref %}}, Elizabeth C. Bogan, Fall 2016 
+- [Public Economics](https://registrar.princeton.edu/course-offerings/course-details?term=1172&courseid=006760), Elizabeth C. Bogan, Fall 2016 
