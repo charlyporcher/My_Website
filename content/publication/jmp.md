@@ -1,6 +1,6 @@
 
 +++
-title = "Social Learning in Migration (Job Market Paper)"
+title = "Migration with Costly Information (Job Market Paper)"
 abstract = ""
 abstract_short = ""
 authors = ['Charly Porcher']
