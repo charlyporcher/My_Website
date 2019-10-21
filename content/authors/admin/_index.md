@@ -66,6 +66,8 @@ email: ""
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
+# Download my {{% staticref "files/jmp.pdf" %}}Job Market Paper{{% /staticref %}}
+
 user_groups:
 - Researchers
 - Visitors
@@ -80,8 +82,6 @@ My research interests include economic geography, migration economics and indust
 I will be available for interviews at the European Job Market in Rotterdam in December 2019 and at the ASSA Annual Meeting in San Diego in January 2020.
 
 {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
-
-Download my {{% staticref "files/jmp.pdf" %}}Job Market Paper{{% /staticref %}}
 
 **Primary fields**: International Trade, Economic Geography <br/>
 **Secondary field**: Industrial Organization
