@@ -21,22 +21,22 @@ organizations:
 bio: I am a Ph.D. candidate in Economics at Princeton University. 
 #My research interests include economic geography, migration economics and industrial organization.
 
-interests:
-- Economic Geography and Migration
-- International Trade
-- Industrial Organization
+#interests:
+#- Economic Geography and Migration
+#- International Trade
+#- Industrial Organization
 
-education:
-  courses:
-  - course: PhD in Economics (expected)
-    institution: Princeton University
-    year: 2020
-  - course: M.A. in Economics
-    institution: Sciences Po and ENSAE
-    year: 2014
-  - course: B.A. in Applied Mathematics
-    institution: Ecole Polytechnique
-    year: 2012
+#education:
+#  courses:
+#  - course: PhD in Economics (expected)
+#    institution: Princeton University
+#    year: 2020
+#  - course: M.A. in Economics
+#    institution: Sciences Po and ENSAE
+#    year: 2014
+#  - course: B.A. in Applied Mathematics
+#    institution: Ecole Polytechnique
+#    year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -60,7 +60,7 @@ social:
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
-
+# 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
   
@@ -71,8 +71,18 @@ user_groups:
 - Visitors
 ---
 
+
+<br/>
 I am a Ph.D. candidate in Economics at Princeton University. 
 
 My research interests include economic geography, migration economics and industrial organization.
 
+I will be available for interviews at the European Job Market in Rotterdam in December 2019 and at the ASSA Annual Meeting in San Diego in January 2020.
+
 {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
+
+Download my {{% staticref "files/jmp.pdf" %}}Job Market Paper{{% /staticref %}}
+
+**Primary fields**: International Trade, Economic Geography <br/>
+**Secondary field**: Industrial Organization
+
