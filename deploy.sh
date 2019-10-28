@@ -6,6 +6,10 @@ set -e
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
+cd /Users/charlyporcher/Dropbox/Website/Sites/My_Website
+
+rm -rf public
+
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder

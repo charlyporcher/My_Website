@@ -83,6 +83,8 @@ I will be available for interviews at the European Job Market in Rotterdam in De
 
 {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
 
+{{% staticref "files/jmp.pdf" %}}Download my Job Market Paper{{% /staticref %}}
+
 **Primary fields**: International Trade, Economic Geography <br/>
 **Secondary fields**: Industrial Organization, Urban Economics
 
