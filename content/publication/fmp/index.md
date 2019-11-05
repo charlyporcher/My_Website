@@ -1,5 +1,6 @@
 
 +++
+featured = true
 title = "A Revealed-Preference Approach to Measuring Information Frictions in Migration"
 abstract = ""
 abstract_short = ""

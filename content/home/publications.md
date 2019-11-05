@@ -10,7 +10,7 @@ weight = 21  # Order that this section will appear.
 #title = "Recent Publications"
 #subtitle = ""
 title = "Research"
-subtitle = "in progress"
+subtitle = "in Progress"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
