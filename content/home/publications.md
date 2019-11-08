@@ -9,8 +9,8 @@ weight = 21  # Order that this section will appear.
 
 #title = "Recent Publications"
 #subtitle = ""
-title = "Research"
-subtitle = "in Progress"
+title = "Job Market Paper"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -29,7 +29,7 @@ subtitle = "in Progress"
   [content.filters]
     tag = ""
     category = ""
-    publication_type = ""
+    publication_type = "7"
     exclude_featured = false
   
 [design]

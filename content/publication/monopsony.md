@@ -1,14 +1,15 @@
 
 +++
+featured = true
 title = "Monopsony in Local Labor Markets"
 abstract = ""
 abstract_short = ""
 authors = ['Adrien Bilal', 'Damien Capelle', 'Charly Porcher']
-date = "2018-01-01"
+date = "2017-04-01"
 image_preview = ""
 math = true
-publication_types = ["2"]
-publication = "Working Paper"
+publication_types = ["3"]
+publication = 'Work in progress'
 publication_short = ""
 selected = false
 url_code = ""
