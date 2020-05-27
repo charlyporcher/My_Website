@@ -18,7 +18,8 @@ organizations:
   url: "https://economics.princeton.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Ph.D. candidate in Economics at Princeton University. 
+bio: I will be the International Economics Postdoctoral Fellow at Dartmouth College starting in Fall 2020. In July 2021 I will be joining Georgetown University's McDonough School of Business as an Assistant Professor of Economics.
+
 #My research interests include economic geography, migration economics and industrial organization.
 
 #interests:
@@ -67,6 +68,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 # Download my {{% staticref "files/jmp.pdf" %}}Job Market Paper{{% /staticref %}}
+#%**Primary fields**: International Trade, Economic Geography <br/>
+#**Secondary fields**: Industrial Organization, Urban Economics
 
 user_groups:
 - Researchers
@@ -75,16 +78,18 @@ user_groups:
 
 
 <br/>
+Welcome!
+
 I am a Ph.D. candidate in Economics at Princeton University. 
 
-My research interests include economic geography, migration economics and industrial organization.
+I will be the International Economics Postdoctoral Fellow at Dartmouth College starting in Fall 2020. 
 
-I will be available for interviews at the European Job Market in Rotterdam in December 2019 and at the ASSA Annual Meeting in San Diego in January 2020.
+In July 2021 I will be joining Georgetown University's McDonough School of Business as an Assistant Professor of Economics.
+
+My research interests include economic geography, migration economics and industrial organization.
 
 {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
 
 {{% staticref "files/jmp.pdf" %}}Download my Job Market Paper{{% /staticref %}}
 
-**Primary fields**: International Trade, Economic Geography <br/>
-**Secondary fields**: Industrial Organization, Urban Economics
 
