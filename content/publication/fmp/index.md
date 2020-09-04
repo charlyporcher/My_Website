@@ -2,10 +2,10 @@
 +++
 featured = true
 title = "A Revealed-Preference Approach to Measuring Information Frictions in Migration"
-abstract = "Labor demand shocks differ widely across regions within countries. Yet, migration patterns often do not respond to these regional shocks. Are workers' limited migration responses due to lack of information about the potential net gains from regional migration? To answer this question, we analyze the mobility decisions of all formally employed workers in Brazil over 15 years. First, using a reduced-form approach, we document heterogeneous delay in reaction to positive local labor demand shocks: workers living in more distant regions and in regions with a lower degree of internet penetration tend to react more slowly to positive local labor demand shocks happening in other regions within the same country. Second, using a structural approach, we use model-based moment conditions and tests of overidentifying restrictions to test for the content of migrants' information sets. Our preliminary results indicate that the precision of the information that workers have about labor market conditions in regions other than their region of residence decays very quickly with distance. Agents located in regions with a better access to internet also appear to have more precise information."
+abstract = "We examine whether workers' limited migration responses to local shocks are due to lack of information about the potential gains from regional migration. We analyze the mobility decisions of all formally employed workers in Brazil over 15 years. We derive model-based moment conditions to test for the content of migrants' information sets. First, we find that individuals located in regions with a better access to internet and a higher population density have richer information sets overall. Second, information is concentrated on few neighboring regions and on regions with population sharing similar education and racial composition. Third, individuals identifying as white and with a higher educational attainment feature richer information sets."
 abstract_short = ""
 authors = ['Thomas Fujiwara', 'Eduardo Morales', 'Charly Porcher']
-date = "2019-10-11"
+date = "2020-09-02"
 image_preview = ""
 math = true
 publication_types = ["3"]

@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD candidate in Economics
+# role: PhD candidate in Economics
 
 # Organizations/Affiliations
 organizations:
-- name: Princeton University
-  url: "https://economics.princeton.edu/"
+- name: Dartmouth College
+  url: "https://economics.dartmouth.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I will be the International Economics Postdoctoral Fellow at Dartmouth College starting in Fall 2020. In July 2021 I will be joining Georgetown University's McDonough School of Business as an Assistant Professor of Economics.
+bio: I am the International Economics Postdoctoral Fellow at Dartmouth College for the 2020-2021 academic year. In July 2021, I will be joining Georgetown University's McDonough School of Business as an Assistant Professor of Economics.
 
 #My research interests include economic geography, migration economics and industrial organization.
 
@@ -70,6 +70,9 @@ email: ""
 # Download my {{% staticref "files/jmp.pdf" %}}Job Market Paper{{% /staticref %}}
 #%**Primary fields**: International Trade, Economic Geography <br/>
 #**Secondary fields**: Industrial Organization, Urban Economics
+#{{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
+
+#{{% staticref "files/jmp.pdf" %}}Download my Job Market Paper{{% /staticref %}}
 
 user_groups:
 - Researchers
@@ -78,18 +81,17 @@ user_groups:
 
 
 <br/>
-Welcome!
+Welcome! 
 
-I am a Ph.D. candidate in Economics at Princeton University. 
+I am an economist with research interests in economic geography, urban and migration economics.
 
-I will be the International Economics Postdoctoral Fellow at Dartmouth College starting in Fall 2020. 
+I am a Postdoctoral Fellow in International Economics at Dartmouth College for the 2020-2021 academic year. 
 
-In July 2021 I will be joining Georgetown University's McDonough School of Business as an Assistant Professor of Economics.
+In July 2021, I will be joining Georgetown University's McDonough School of Business as an Assistant Professor of Economics.
 
-My research interests include economic geography, migration economics and industrial organization.
+I received a PhD in Economics from Princeton University. You can find my CV {{% staticref "files/cv.pdf" %}}here{{% /staticref %}}.
 
-{{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
 
-{{% staticref "files/jmp.pdf" %}}Download my Job Market Paper{{% /staticref %}}
+
 
 

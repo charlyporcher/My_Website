@@ -55,9 +55,11 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "cporcher [at] princeton.edu"
+# email = "cporcher [at] princeton.edu"
+email = "charly.porcher [at] dartmouth.edu"
 phone = "609 516 7164"
-address = "Department of Economics, Julis Romo Rabinowitz Building, Princeton University, Princeton, New Jersey, 08544"
+# address = "Department of Economics, Julis Romo Rabinowitz Building, Princeton University, Princeton, New Jersey, 08544"
+address = "Rockefeller Hall, Dartmouth College, Hanover, NH 03755"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
