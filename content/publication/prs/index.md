@@ -20,6 +20,6 @@ url_slides = ""
 url_video = ""
 
 [[url_custom]]
-name = "prs2"
+name = "prs"
 url = ""
 +++
