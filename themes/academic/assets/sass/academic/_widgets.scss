@@ -262,13 +262,10 @@ a.hero-cta-alt:hover {
 }
 
 .portrait {
-/*max-width:100%;*/
-width: 280px;
-height:auto;
- /* width: 300px;
-height: 200px; */
-margin: 0 auto;
-/*  border-radius: 50%;*/
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
   object-fit: cover;
 }
 
@@ -512,7 +509,6 @@ ul.ul-edu li .description p.institution {
 .people-widget .portrait {
   width: 80%;
   max-width: 150px;
-/*max-width: 100%;*/
   height: auto;
 }
 

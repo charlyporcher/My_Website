@@ -15,6 +15,9 @@ weight = 25
 
 +++
 
+## Georgetown University
+- [Structure of Global Industries](https://gufaculty360.georgetown.edu/s/course-catalog/a1o1Q00000F7kFHQAZ/badm55002?id=0031Q00002GZdFNQA1), Summer 2021
+
 ## Princeton University - Teaching Assistant
 
 - [International Trade](https://registrar.princeton.edu/course-offerings/course-details?term=1194&courseid=001408), Prof. Gene M. Grossman, Spring 2018, 2019

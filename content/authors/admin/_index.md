@@ -14,11 +14,11 @@ superuser: true
 
 # Organizations/Affiliations
 organizations:
-- name: Dartmouth College
-  url: "https://economics.dartmouth.edu/"
+- name: Georgetown University
+  url: "https://msb.georgetown.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am the International Economics Postdoctoral Fellow at Dartmouth College for the 2020-2021 academic year. In July 2021, I will be joining Georgetown University's McDonough School of Business as an Assistant Professor of Economics.
+bio: I am Assistant Professor of Economics at Georgetown University's McDonough School of Business. 
 
 #My research interests include economic geography, migration economics and industrial organization.
 
@@ -73,6 +73,7 @@ email: ""
 #{{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
 
 #{{% staticref "files/jmp.pdf" %}}Download my Job Market Paper{{% /staticref %}}
+# I received a PhD in Economics from Princeton University. You can find my CV {{% staticref "files/cv.pdf" %}}here{{% /staticref %}}.
 
 user_groups:
 - Researchers
@@ -81,15 +82,19 @@ user_groups:
 
 
 <br/>
+
+&nbsp;
+
 Welcome! 
 
-I am an economist with research interests in economic geography, urban and migration economics.
+I am an Assistant Professor of Economics at Georgetown University's McDonough School of Business.
 
-I am a Postdoctoral Fellow in International Economics at Dartmouth College for the 2020-2021 academic year. 
+My research focuses on economic geography, urban and migration economics.
 
-In July 2021, I will be joining Georgetown University's McDonough School of Business as an Assistant Professor of Economics.
+You can download my CV {{< staticref "cv.pdf" "newtab" >}}here{{< /staticref >}}.
 
-I received a PhD in Economics from Princeton University. You can find my CV {{% staticref "files/cv.pdf" %}}here{{% /staticref %}}.
+
+
 
 
 
