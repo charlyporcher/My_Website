@@ -1,14 +1,14 @@
 
 +++
 featured = true
-title = "A Revealed-Preference Approach to Measuring Information Frictions in Migration"
-abstract = "We examine whether workers' limited migration responses to local shocks are due to lack of information about the potential gains from regional migration. We analyze the mobility decisions of all formally employed workers in Brazil over 15 years. We derive model-based moment conditions to test for the content of migrants' information sets. First, we find that individuals located in regions with a better access to internet and a higher population density have richer information sets overall. Second, information is concentrated on few neighboring regions and on regions with population sharing similar education and racial composition. Third, individuals identifying as white and with a higher educational attainment feature richer information sets."
+title = "Measuring Information Frictions in Migration: A Revealed-Preference Approach"
+abstract = "Labor market conditions differ widely across regions within countries. Yet, migration patterns often do not respond to these regional differences. Are workers' limited migration responses due to a lack of information on the potential net gains from regional migration? To answer this question, we analyze the mobility decisions of all formally employed workers in Brazil for the period 2000-2014. We use a model of workers' migration decisions to derive novel moment inequalities that allow us to test for the content of migrants’ information sets. Beyond our specific application, the moment inequalities we derive may be used in the context of discrete choice models in which the agent’s consideration set is arbitrary large and the agent’s expected utility from each choice is unobserved to the researcher. Our results indicate that workers face indeed substantial information frictions in their migration decisions. We find that workers on average do not perceive variations in wages across locations that are below the inter-quartile range of the wage distribution. Workers located in regions with a better access to internet and a higher population density have more precise information overall, and workers in general have more precise information about nearby regions."
 abstract_short = ""
 authors = ['Thomas Fujiwara', 'Eduardo Morales', 'Charly Porcher']
-date = "2021-09-02"
+date = "2023-03-01"
 image_preview = ""
 math = true
-publication_types = ["3"]
+publication_types = ["4"]
 publication = 'Working Paper'
 publication_short = ""
 selected = false
