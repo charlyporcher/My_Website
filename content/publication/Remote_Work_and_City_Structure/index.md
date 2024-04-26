@@ -6,12 +6,12 @@ abstract = "We study the adoption of remote work within cities and its effect on
 
 abstract_short = ""
 authors = ['Ferdinando Monte', 'Charly Porcher', 'Esteban Rossi-Hansberg']
-date = "2023-07-14"
+date = "2023-10-20"
 image_preview = ""
 math = true
 publication_types = ["3"]
 publication = "Working Paper"
-publication_short = ""
+publication_short = "R&R, American Economic Review"
 selected = false
 url_code = ""
 url_dataset = ""

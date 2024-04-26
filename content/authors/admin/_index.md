@@ -74,12 +74,13 @@ email: ""
 
 #{{% staticref "files/jmp.pdf" %}}Download my Job Market Paper{{% /staticref %}}
 # I received a PhD in Economics from Princeton University. You can find my CV {{% staticref "files/cv.pdf" %}}here{{% /staticref %}}.
+#Here is a link to Georgetown’s 2023/24 {{< url: "https://ibd.georgetown.edu/research/seminars/" "newtab" >}}seminar series in International Economics{{< /url >}}, which I co-organize with Nuno Limao and Xiang Ding.
+# Here is a link to Georgetown’s 2023/24 [seminar series in International Economics](https://ibd.georgetown.edu/research/seminars/), which I co-organize with Nuno Limao and Xiang Ding.
 
 user_groups:
 - Researchers
 - Visitors
 ---
-
 
 <br/>
 
