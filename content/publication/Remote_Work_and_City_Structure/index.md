@@ -6,7 +6,7 @@ abstract = "Relative to remote work, working downtown facilitates valuable inter
 
 abstract_short = ""
 authors = ['Ferdinando Monte', 'Charly Porcher', 'Esteban Rossi-Hansberg']
-date = "2025-02-21"
+date = "2025-04-01"
 image_preview = ""
 math = true
 publication_types = ["3"]
