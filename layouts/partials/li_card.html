@@ -51,7 +51,77 @@
     {{ end }}
   </div>
   {{ else }}
+    {{ if and (eq $item.Type "publication") (eq $item.Title "Remote Work and City Structure") }}
+    <div class="article-metadata">
+      <div class="pub-publication">
+        Forthcoming, <span style="font-weight: 900 !important; font-style: italic; -webkit-text-stroke: 0.2px currentColor; text-shadow: 0.2px 0 currentColor;">American Economic Review</span>
+      </div>
+      {{ if $item.Params.authors }}
+      <div itemprop="author">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+      {{ end }}
+      {{ if $item.Params.publication_short }}
+      <div class="pub-publication">
+        {{ $item.Params.publication_short | markdownify }}
+      </div>
+      {{ end }}
+      <span class="article-date">
+        <time>{{ $item.Date.Format (site.Params.publications.date_format | default "January, 2006") }}</time>
+      </span>
+    </div>
+    {{ else if and (eq $item.Type "publication") (eq $item.Title "The Role of Establishment Size in the City-Size Earnings Premium in Spain") }}
+    <div class="article-metadata">
+      {{ if $item.Params.publication }}
+      <span class="pub-publication">
+        <span style="font-weight: 900 !important; font-style: italic; -webkit-text-stroke: 0.2px currentColor; text-shadow: 0.2px 0 currentColor;">{{ $item.Params.publication | markdownify }}</span>
+      </span>
+      <span class="middot-divider"></span>
+      {{ end }}
+      <span class="article-date">
+        <time>{{ $item.Date.Format (site.Params.publications.date_format | default "January, 2006") }}</time>
+      </span>
+      {{ if $item.Params.authors }}
+      <div itemprop="author">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+      {{ end }}
+    </div>
+    {{ else if and (eq $item.Type "publication") (eq $item.Title "Measuring Information Frictions in Migration Decisions: A Revealed-Preference Approach") }}
+    <div class="article-metadata">
+      {{ if $item.Params.publication }}
+      <div class="pub-publication">
+        R&R, <span style="font-weight: 900 !important; font-style: italic; -webkit-text-stroke: 0.2px currentColor; text-shadow: 0.2px 0 currentColor;">AEJ: Microeconomics</span>
+      </div>
+      {{ end }}
+      {{ if $item.Params.authors }}
+      <div itemprop="author">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+      {{ end }}
+      <span class="article-date">
+        <time>{{ $item.Date.Format (site.Params.publications.date_format | default "January, 2006") }}</time>
+      </span>
+    </div>
+    {{ else if and (eq $item.Type "publication") (eq $item.Title "Migration with Costly Information") }}
+    <div class="article-metadata">
+      {{ if $item.Params.publication_short }}
+      <div class="pub-publication">
+        {{ $item.Params.publication_short | markdownify }}
+      </div>
+      {{ end }}
+      {{ if $item.Params.authors }}
+      <div itemprop="author">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+      {{ end }}
+      <span class="article-date">
+        <time>{{ $item.Date.Format (site.Params.publications.date_format | default "January, 2006") }}</time>
+      </span>
+    </div>
+    {{ else }}
     {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+    {{ end }}
   {{ end }}
 
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
@@ -63,8 +133,28 @@
   </a>
   {{end}}
 
+  {{ $blue_title := false }}
+  {{ if and (eq $item.Type "publication") $item.Params.publication_types }}
+    {{ $pub_type := index $item.Params.publication_types 0 }}
+    {{ if or (in (slice "3" "4") $pub_type) (eq $item.Title "Remote Work and City Structure") (eq $item.Title "The Role of Establishment Size in the City-Size Earnings Premium in Spain") }}
+      {{ $blue_title = true }}
+    {{ end }}
+  {{ end }}
+
+  {{ $title_link := $item.RelPermalink }}
+  {{ if eq $item.Type "publication" }}
+    {{ $resource := $item.Resources.GetMatch (printf "%s.pdf" $item.File.ContentBaseName) }}
+    {{ with $resource }}
+      {{ $title_link = .RelPermalink }}
+    {{ else }}
+      {{ with $item.Params.url_pdf }}
+        {{ $title_link = . | relURL }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
   <h3 class="article-title mb-1 mt-3" itemprop="name">
-    <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
+    <a href="{{ $title_link }}" itemprop="url"{{ if $blue_title }} style="color: #041e42;"{{ end }}>{{ $item.Title }}</a>
   </h3>
 
   {{ with $summary }}
@@ -75,7 +165,7 @@
 
   {{ if $show_buttons }}
   <div class="btn-links">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{ partial "page_links" (dict "page" $item "is_list" 1 "hide_pdf" true) }}
   </div>
   {{ end }}
 

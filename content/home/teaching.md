@@ -27,5 +27,4 @@ weight = 25
 +++
 
 ## Georgetown University
-- [Structure of Global Industries](https://gufaculty360.georgetown.edu/s/course-catalog/a1o1Q000003RermQAC/badm55002?id=0031Q00002GZdFNQA1), Summer 2021, 2022, 2023, 2024
-
+- [Structure of Global Industries](https://gufaculty360.georgetown.edu/s/course-catalog/a1oUH00000KRvZAYA1/badm550006?id=0031Q00002GZdFNQA1), Summer 2021, 2022, 2023, 2024, 2025

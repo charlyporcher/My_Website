@@ -9,3 +9,34 @@
 # width: auto;
 # height: auto;
 }
+
+#about.home-section {
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+#about #profile {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+#about #profile .network-icon:empty {
+  display: none;
+  margin-top: 0;
+}
+
+.home-section .section-heading h1 {
+  font-size: 1.75em;
+}
+
+@media screen and (max-width: 768px) {
+  #about.home-section {
+    padding-top: 28px;
+    padding-bottom: 24px;
+  }
+
+  #about #profile {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}

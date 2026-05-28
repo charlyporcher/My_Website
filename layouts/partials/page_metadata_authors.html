@@ -1,0 +1,30 @@
+{{/* Display author list. */}}
+
+{{ $taxonomy := "authors" }}
+{{ $author_links := site.Data.author_links.links }}
+{{ with .Param $taxonomy }}
+  {{ range $index, $value := . }}
+    {{- $slug := . | urlize -}}
+    {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $slug) -}}
+    {{- $name := $value | markdownify -}}
+    {{- with $profile_page -}}
+      {{- with .Params.name -}}
+        {{- $name = . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $external_url := index $author_links $slug -}}
+    {{- if gt $index 0 }}, {{ end -}}
+    <span itemprop="author name" itemtype="http://schema.org/Person">
+      {{- if $external_url -}}
+        {{- $scheme := (urls.Parse $external_url).Scheme -}}
+        <a href="{{ $external_url }}"{{ if in (slice "http" "https") $scheme }} target="_blank" rel="noopener"{{ end }}>{{ $name }}</a>
+      {{- else -}}
+        {{- with $profile_page -}}
+          <a href="{{ .RelPermalink }}">{{ $name }}</a>
+        {{- else -}}
+          {{ $name }}
+        {{- end -}}
+      {{- end -}}
+    </span>
+  {{- end -}}
+{{ end }}

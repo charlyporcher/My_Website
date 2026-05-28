@@ -1,14 +1,14 @@
 
 +++
 featured = true
-title = "Evicted from the Land of Opportunity: Evidence on Displacement from California Rent Control"
-abstract = "We investigate the socioeconomic impacts of plausibly exogenous eviction from rent-controlled housing in California. Under the Ellis Act, landlords are allowed to evict all tenants from a building and withdraw it from the rental market. We assemble panel data on address histories, employment, income, and neighborhood characteristics for all Ellis-evictees in San Francisco and a control group of non-evictees in the same block. We confirm that those large-building evictions appear orthogonal to evictees’ individual characteristics after controlling for observable household and neighborhood effects. Comparing those two groups with a difference-in-difference approach, we find that evicted tenants between 1998 and 2012 not only exhibit a higher propensity to exit the city but also endure a reduction in nominal income that reaches 20 percent eight years after the eviction, the end of our analysis window. Those income losses are also experienced, in the same magnitude but more gradually, by evictees who remain in San Francisco. Those large income losses contrast with the income improvement we observe for non-eviction-related relocations. The negative impact extends to their residential destinations post-eviction, which tend to be neighborhoods with lower job density, higher unemployment rates, and diminished school quality, particularly for tenants with lower pre-eviction income. Specifically, children from evicted households face significant setbacks, evidenced by diminished earnings in early adulthood, suggesting a persistent intergenerational impact."
+title = "Evicted from Opportunity: Labor Market Effects of Housing Loss in High-Productivity Cities"
+abstract = "How important is stable housing near high-paying jobs for long-run career growth? We study San Francisco Ellis Act withdrawals, which remove rent-controlled buildings from the rental market, and compare displaced tenants with tenants in nearby rent-controlled buildings. Six years after eviction, displaced workers earn about $13,000 less (20 percent of baseline earnings) and live in lower-value housing and neighborhoods. Losses are largest for younger workers and remain large even for movers of 5-25 km, who transition to smaller, lower-paying firms and face longer commutes. We develop an equilibrium model of frictional housing and job search, costly commuting, localized search, and human-capital accumulation, calibrated to the Bay Area. The model quantitatively matches the eviction effects because central locations offer higher wages and faster wage growth; displacement reduces access to both and slows progression up the spatial job ladder. Counterfactuals show that improving access to central housing reduces losses more than temporary rent or commuting subsidies."
 abstract_short = ""
 authors = ['Brian Asquith', 'Kate Pennington', 'Charly Porcher']
-date = "2024-04-01"
+date = "2026-05-01"
 image_preview = ""
 math = true
-publication_types = ["4"]
+publication_types = ["3"]
 publication = 'Working Paper'
 publication_short = ""
 selected = false
