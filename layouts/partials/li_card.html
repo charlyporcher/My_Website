@@ -154,7 +154,11 @@
   {{ end }}
 
   <h3 class="article-title mb-1 mt-3" itemprop="name">
+    {{ if $item.Params.no_link }}
+    <span{{ if $blue_title }} style="color: #041e42;"{{ end }}>{{ $item.Title }}</span>
+    {{ else }}
     <a href="{{ $title_link }}" itemprop="url"{{ if $blue_title }} style="color: #041e42;"{{ end }}>{{ $item.Title }}</a>
+    {{ end }}
   </h3>
 
   {{ with $summary }}
