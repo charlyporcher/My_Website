@@ -29,6 +29,24 @@
   font-size: 1.75em;
 }
 
+.remote-work-citation a,
+.remote-work-citation a:visited,
+.remote-work-citation a:hover,
+.remote-work-citation a:focus {
+  color: #000 !important;
+}
+
+.remote-work-citation a strong {
+  font-weight: 900 !important;
+}
+
+.mifmd-citation strong {
+  color: #000 !important;
+  font-weight: 900 !important;
+  -webkit-text-stroke: 0.2px #000;
+  text-shadow: 0.2px 0 #000;
+}
+
 @media screen and (max-width: 768px) {
   #about.home-section {
     padding-top: 28px;

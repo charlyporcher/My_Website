@@ -6,11 +6,11 @@ abstract = "Relative to remote work, working downtown facilitates valuable inter
 
 abstract_short = ""
 authors = ['Ferdinando Monte', 'Charly Porcher', 'Esteban Rossi-Hansberg']
-date = "2025-11-10"
+date = "2026-08-01"
 image_preview = ""
 math = true
 publication_types = ["2"]
-publication = "Forthcoming, ***American Economic Review***"
+publication = "[***American Economic Review***](https://www.aeaweb.org/articles?id=10.1257/aer.20231414), 2026, 116(8): 3152-3196"
 publication_short = "**Awarded Best Paper at the 2024 American Real Estate and Urban Economics Association's National Conference**"
 selected = false
 url_code = ""

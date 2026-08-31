@@ -53,9 +53,11 @@
   {{ else }}
     {{ if and (eq $item.Type "publication") (eq $item.Title "Remote Work and City Structure") }}
     <div class="article-metadata">
-      <div class="pub-publication">
-        Forthcoming, <span style="font-weight: 900 !important; font-style: italic; -webkit-text-stroke: 0.2px currentColor; text-shadow: 0.2px 0 currentColor;">American Economic Review</span>
+      {{ if $item.Params.publication }}
+      <div class="pub-publication remote-work-citation">
+        {{ $item.Params.publication | markdownify }}
       </div>
+      {{ end }}
       {{ if $item.Params.authors }}
       <div itemprop="author">
         {{ partial "page_metadata_authors" $item }}
@@ -66,9 +68,6 @@
         {{ $item.Params.publication_short | markdownify }}
       </div>
       {{ end }}
-      <span class="article-date">
-        <time>{{ $item.Date.Format (site.Params.publications.date_format | default "January, 2006") }}</time>
-      </span>
     </div>
     {{ else if and (eq $item.Type "publication") (eq $item.Title "The Role of Establishment Size in the City-Size Earnings Premium in Spain") }}
     <div class="article-metadata">
@@ -90,8 +89,8 @@
     {{ else if and (eq $item.Type "publication") (eq $item.Title "Measuring Information Frictions in Migration Decisions: A Revealed-Preference Approach") }}
     <div class="article-metadata">
       {{ if $item.Params.publication }}
-      <div class="pub-publication">
-        R&R, <span style="font-weight: 900 !important; font-style: italic; -webkit-text-stroke: 0.2px currentColor; text-shadow: 0.2px 0 currentColor;">AEJ: Microeconomics</span>
+      <div class="pub-publication mifmd-citation">
+        {{ $item.Params.publication | markdownify }}
       </div>
       {{ end }}
       {{ if $item.Params.authors }}
@@ -136,7 +135,7 @@
   {{ $blue_title := false }}
   {{ if and (eq $item.Type "publication") $item.Params.publication_types }}
     {{ $pub_type := index $item.Params.publication_types 0 }}
-    {{ if or (in (slice "3" "4") $pub_type) (eq $item.Title "Remote Work and City Structure") (eq $item.Title "The Role of Establishment Size in the City-Size Earnings Premium in Spain") }}
+    {{ if or (in (slice "3" "4") $pub_type) (eq $item.Title "Remote Work and City Structure") (eq $item.Title "The Role of Establishment Size in the City-Size Earnings Premium in Spain") (eq $item.Title "Measuring Information Frictions in Migration Decisions: A Revealed-Preference Approach") }}
       {{ $blue_title = true }}
     {{ end }}
   {{ end }}
